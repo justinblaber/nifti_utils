@@ -8,3 +8,21 @@ Most of the utilities I developed are for allowing data processing to occur WRT 
 ```
 addpath(genpath('~/nifti_utils'));
 ```
+2) Test out some of the utilities:
+
+```
+# Load volume
+test_vol = nifti_utils.load_untouch_nii_vol_scaled('test.nii.gz','double');
+
+# Get "voxel RAS" transform
+xform_RAS = nifti_utils.get_voxel_RAS_xform('test.nii.gz');
+
+# Apply transform to volume
+test_vol_RAS = nifti_utils.vol_apply_xform(test_vol,xform_RAS);
+
+# View the 4D volume slice-wise
+nifti_utils.vol_viewer_4D(test_vol_RAS);
+```
+<p align="center">
+  <img width="558" height="481"  src="https://i.imgur.com/qyLYnPl.png">
+</p>
