@@ -27,7 +27,7 @@ test_vol_RAS = nifti_utils.vol_apply_xform(test_vol,xform_RAS);
 # View the 4D volume slice-wise
 nifti_utils.vol_viewer_4D(test_vol_RAS);
 ```
-The viewer should look like:
+The viewer should look something like:
 <p align="center">
   <img width="558" height="481"  src="https://i.imgur.com/qyLYnPl.png">
 </p>
