@@ -11,7 +11,7 @@ git clone https://github.com/justinblaber/nifti_utils.git
 ```
 Then, in MATLAB:
 ```
-addpath('nifti_utils');
+addpath(genpath('nifti_utils'));
 ```
 You can try out some of the utilties like so:
 ```
