@@ -6,10 +6,12 @@ Utilities in this package allow for data processing to occur WRT storage orienta
 There's more info and a tutorial [here](http://justinblaber.org/nifti-files-in-matlab/) for working with NIFTI files in MATLAB with this library.
 
 # Installation instructions:
+1) (optional - only if you want to use radiological storage orientation check) Install [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+2) Download repo:
 ```
 git clone https://github.com/justinblaber/nifti_utils.git
 ```
-Then, in MATLAB:
+3) In MATLAB:
 ```
 addpath(genpath('nifti_utils'));
 ```
