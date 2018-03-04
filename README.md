@@ -7,7 +7,7 @@ There's more info and a tutorial [here](http://justinblaber.org/nifti-files-in-m
 
 # Installation instructions:
 ```
-git clone https://github.com/justinblaber/system_utils.git
+git clone https://github.com/justinblaber/nifti_utils.git
 ```
 Then, in MATLAB:
 ```
