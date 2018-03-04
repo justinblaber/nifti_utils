@@ -1,7 +1,7 @@
 # nifti_utils
 This is an extension for [Tools for NIfTI and ANALYZE image](https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image) and contains additional utilities that I found useful when dealing with NIFTIs in MATLAB. 
 
-Most of the utilities I developed are for allowing data processing to occur WRT storage orientation while also taking data scaling into account, saving NIFTIs after they have been modified/processed in the same orientation, and getting the volume in "voxel RAS" orientation which is useful for plotting results without resampling or reslicing the data. 
+Utilities in this package allow for data processing to occur WRT storage orientation while also taking data scaling into account, saving NIFTIs after they have been modified/processed in the same orientation, getting the volume in "voxel RAS" orientation which is useful for plotting results without resampling or reslicing the data, and more...
 
 There's more info and a tutorial [here](http://justinblaber.org/nifti-files-in-matlab/) for working with NIFTI files in MATLAB with this library.
 
