@@ -17,16 +17,16 @@ git clone https://github.com/justinblaber/nifti_utils.git
 ```
 You can try out some of the utilties like so:
 ```
-# Load volume
+% Load volume
 test_vol = nifti_utils.load_untouch_nii_vol_scaled('test.nii.gz','double');
 
-# Get "voxel RAS" transform
+% Get "voxel RAS" transform
 xform_RAS = nifti_utils.get_voxel_RAS_xform('test.nii.gz');
 
-# Apply transform to volume
+% Apply transform to volume
 test_vol_RAS = nifti_utils.vol_apply_xform(test_vol,xform_RAS);
 
-# View the 4D volume slice-wise
+% View the 4D volume slice-wise
 nifti_utils.vol_viewer_4D(test_vol_RAS);
 ```
 The viewer should look something like:
